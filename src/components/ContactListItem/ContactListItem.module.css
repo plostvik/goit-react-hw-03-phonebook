@@ -1,0 +1,17 @@
+.listItem {
+  padding: 5px 0;
+}
+
+.wrapper {
+  margin: 2px 0;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  composes: button from '../ContactForm/ContactForm.module.css';
+  width: 30px;
+  padding: 0px;
+}
